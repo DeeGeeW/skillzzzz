@@ -18,21 +18,21 @@
 
 // 2.)
 
-// function array(words) {
-//   var i = 0;
-//   var arr = [];
-//   while (i < words.length) {
-//     if (words[i][0].toUpperCase() === "W") {
-//       arr.push(words[i]);
-//       i++;
-//     } else {
-//       i++;
-//     }
-//   }
-//   return arr;
-// }
+function array(words) {
+  var i = 0;
+  var arr = [];
+  while (i < words.length) {
+    if (words[i][0].toUpperCase() === "W") {
+      arr.push(words[i]);
+      i++;
+    } else {
+      i++;
+    }
+  }
+  return arr;
+}
 
-// console.log(array(["welcome", "status", "wishbone", "warrior", "yellowjacket"]));
+console.log(array(["welcome", "status", "wishbone", "warrior", "yellowjacket"]));
 
 // 3.)
 

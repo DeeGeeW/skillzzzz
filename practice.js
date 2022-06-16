@@ -9,18 +9,8 @@
 // console.log(sum([4, 3, 3, 5]));
 // 2) Write a function that takes in an array of strings and returns the smallest string.
 
-// var arr = ["one", "a", "three", "twelve"];
-// function min(array) {
-//   let smallest = arr[0];
-//   for (let i = 0; i < arr.length; i++) {
-//     if (arr[i].length < smallest.length) {
-//       smallest = arr[i];
-//     }
-//   }
-//   console.log(smallest);
-// }
-// min(arr);
-
+// function array(strings) {}
+// console.log(array(["apple", "avenue", "banana"]));
 // 3) Write a function that takes in an array of numbers and returns a new array with the numbers in reverse order.
 
 // var array = [1, 2, 3, 4, 5];
@@ -44,6 +34,11 @@
 // console.log(count);
 
 // 5) Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
+
+function array(strings) {
+  console.log(strings);
+}
+console.log(array(["apple", "avenue", "banana"]));
 
 // 6) Write a function that takes in an array of numbers and returns the product of all the numbers (each number multiplied by each other).
 
