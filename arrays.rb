@@ -3,7 +3,7 @@
 # array = ["w1", "w2", "w3"]
 # 2.times do
 #   puts "enter a word"
-#   array << gets.chomp 
+#   array << gets.chomp
 # end
 # puts array
 
@@ -15,7 +15,6 @@
 # end
 
 # array("fydk")
-
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
@@ -34,7 +33,6 @@
 # arr << 2
 # arr << 2
 # p arr
-
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
@@ -79,3 +77,16 @@
 #   p countries
 # end
 # array(["guam", "phillipines", "israel"])
+# def find_ps(words)
+#   i = 0
+#   has_p = false
+#   while i < words.length
+#     if words[i].upcase.include?("P")
+#       has_p = true
+#     end
+#     i += 1
+#   end
+#   return has_p
+# end
+
+# p find_ps(["always", "forever", "purple"])
