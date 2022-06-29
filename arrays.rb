@@ -86,7 +86,33 @@
 #     end
 #     i += 1
 #   end
-#   return has_p
+#   p has_p
 # end
 
 # p find_ps(["always", "forever", "purple"])
+
+def plusMinus(arr)
+  i = 0
+  pos = 0.000000
+  neg = 0.000000
+  zer = 0.000000
+  while i < arr.length
+    if arr[i] > 0
+      pos += 1
+    elsif arr[i] < 0
+      neg += 1
+    elsif arr[i] == 0
+      zer += 1
+    else
+      return false
+    end
+    i += 1
+  end
+  p pos / arr.length
+  p neg / arr.length
+  p zer / arr.length
+
+  # Write your code here
+end
+
+plusMinus([-4, 3, -9, 0, 4, 1])
