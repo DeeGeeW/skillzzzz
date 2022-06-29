@@ -91,28 +91,43 @@
 
 # p find_ps(["always", "forever", "purple"])
 
-def plusMinus(arr)
-  i = 0
-  pos = 0.000000
-  neg = 0.000000
-  zer = 0.000000
-  while i < arr.length
-    if arr[i] > 0
-      pos += 1
-    elsif arr[i] < 0
-      neg += 1
-    elsif arr[i] == 0
-      zer += 1
-    else
-      return false
-    end
-    i += 1
-  end
-  p pos / arr.length
-  p neg / arr.length
-  p zer / arr.length
+# def plusMinus(arr)
+#   i = 0
+#   pos = 0.000000
+#   neg = 0.000000
+#   zer = 0.000000
+#   while i < arr.length
+#     if arr[i] > 0
+#       pos += 1
+#     elsif arr[i] < 0
+#       neg += 1
+#     elsif arr[i] == 0
+#       zer += 1
+#     else
+#       return false
+#     end
+#     i += 1
+#   end
+#   p pos / arr.length
+#   p neg / arr.length
+#   p zer / arr.length
 
-  # Write your code here
-end
+#   # Write your code here
+# end
 
-plusMinus([-4, 3, -9, 0, 4, 1])
+# plusMinus([-4, 3, -9, 0, 4, 1])
+
+# hackerrank
+# def staircase(n)
+#   i = 1
+#   while i < n + 1
+#     puts (" " * (n - i)) + ("#" * i)
+#     i += 1
+#   end
+# end
+
+# hackerrank
+# def miniMaxSum(arr)
+#   sorted = arr.sort
+#   puts (sorted.sum - sorted[-1]).to_s + " " + (sorted.sum - sorted[0]).to_s
+# end
