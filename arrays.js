@@ -1,9 +1,9 @@
 // 1.)
 
-var arr = ["w1", "w2", "w3"];
-arr.push("hello");
-arr.push("goodbye");
-console.log(arr);
+// var arr = ["w1", "w2", "w3"];
+// arr.push("hello");
+// arr.push("goodbye");
+// console.log(arr);
 
 // 2.)
 
