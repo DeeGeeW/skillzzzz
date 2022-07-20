@@ -24,14 +24,14 @@
 
 // 4) Write a function that takes in an array of words and returns the number of words that begin with the letter “a”.
 
-// var arr = ["apple", "avenue", "banana"];
-// var count = 0;
-// for (let i = 0; i < arr.length; i++) {
-//   if (arr[i].charAt(0) === "a") {
-//     count++;
-//   }
-// }
-// console.log(count);
+var arr = ["apple", "avenue", "banana"];
+var count = 0;
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i].charAt(0) === "a") {
+    count++;
+  }
+}
+console.log(count);
 
 // 5) Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
 

@@ -14,16 +14,16 @@
 
 // 2.)
 
-// function array(words) {
-//   var i = 0;
-//   var string = "";
-//   while (i < words.length) {
-//     string = string + words[i];
-//     i++;
-//   }
-//   return string;
-// }
-// console.log(array(["volleyball", "basketball", "badminton"]));
+function array(words) {
+  var i = 0;
+  var string = "";
+  while (i < words.length) {
+    string = string + words[i];
+    i++;
+  }
+  return string;
+}
+console.log(array(["volleyball", "basketball", "badminton"]));
 
 // 3.)
 

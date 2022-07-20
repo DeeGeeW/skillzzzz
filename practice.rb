@@ -71,7 +71,7 @@
 #     total *= nums[i]
 #     i += 1
 #   end
-#   p total 
+#   p total
 # end
 # arr([4, 5, 6, 7, 8])
 # 7) Write a function that takes in an array of numbers and returns the two smallest numbers.
@@ -95,20 +95,18 @@ def zeros(nums)
     f = 0
     while f < nums[i].to_s.length
       if nums[i].to_s[f] == "0"
-        
         count += 1
         f += 1
       else
         f += 1
       end
-      
     end
-    i +=1
+    i += 1
   end
   p count
 end
 
-zeros([30--00, 59, 10, 13, 0])
+zeros([30 - -00, 59, 10, 13, 0])
 # array = [4000, 3, 0, 50, 0, 8, 9, 0, -100]
 # count = 0
 # index = 0
